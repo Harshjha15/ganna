@@ -1,0 +1,210 @@
+
+#home{
+    margin-top: 40px;
+    justify-content: center;
+    text-align: center;
+    animation-name:item15;
+animation-duration: 3s;
+animation-iteration-count:1;
+animation-fill-mode: alternate;
+animation-timing-function: ease-in-out;
+animation-direction:alternate;
+}
+
+@keyframes item15{
+    from{
+        width:200px
+    }
+    to{
+        width: 1400px;
+    }
+}
+.container{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 1rem;
+}
+.top{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 1rem;
+}
+.top2{
+    margin-top: 14px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+}
+.item{
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.item9{
+   margin-top: 25px;
+}
+
+.item0 ,.item1{
+     text-align: center;
+    justify-content: center;
+    border-radius: 90px;
+    margin-top: 25px;
+animation-name:item20;
+animation-duration: 3s;
+animation-iteration-count:1;
+animation-fill-mode: alternate;
+animation-timing-function: ease-in-out;
+animation-direction:reverse;
+}
+@keyframes item20{
+    from{
+        width:200px
+    }
+    to{
+        width: 1400px;
+    }
+}
+.a1:hover{
+    font-size: 30px;
+    padding: 5px;
+    background-color: rgb(121, 132, 142);
+    border: 2px solid rgb(121, 132, 142);
+    border-radius: 50px;
+    transition-duration: 1s;
+    color: rgb(0, 0, 0);
+}
+#home:hover{
+    margin-top: 40px;
+    font-size: 50px;
+    transition-duration: 1s;
+    color: rgb(13, 240, 144);
+    cursor: default;
+    transform: rotate(360deg);
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.con{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 1rem;
+}
+.item2{
+    padding-top: 30px;
+    text-align: center;
+    justify-content: center;
+   margin-top: 25px;
+background-color:rgb(9, 9, 6);
+border-radius: 50px;
+}
+.a2:hover{
+    font-size: 30px;
+padding: 10px;
+    background-color: rgb(41, 87, 128);
+    border: 2px solid rgb(41, 87, 128);
+    border-radius: 50px;
+    font-style:bold;
+    transition-duration: 1s;
+    color: rgb(0, 0, 0);
+    box-shadow:-5px -5px #c9e11e;
+}
+
+.item11{
+text-align: center;
+animation-name:item26;
+animation-duration: 3s;
+animation-iteration-count:1;
+animation-fill-mode: alternate;
+animation-timing-function: ease-in-out;
+animation-direction:alternate;
+}
+@keyframes item26{
+    from{
+        width:200px
+    }
+    to{
+        width: 1400px;
+    }
+}
+h2:hover ,.qwe:hover{
+color: #bb0cec;
+cursor: default;
+    transform: rotate(360deg);
+}
+footer {
+    margin-top: 60px;
+    background-color:rgb(0, 0, 0);
+    color: rgb(241, 248, 243);
+    text-align: center;
+    width: 100%;  
+}
+.btn{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 50px;
+    font-style: bold;
+}
+.btn:hover{
+    background-color: black;
+    color: rgb(249, 0, 0);
+    font-size: 20px;
+    transition-duration: .5s;
+}
+.qwe{
+    text-align: center;
+    margin: 30px;
+    padding: 40px;
+}
+.tot{
+    margin-left: 80px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap: 2rem;
+}
+.grid{
+    
+    box-shadow:-5px -5px #015f02;
+    opacity: 1;
+    color: blue;
+    text-align: center;
+    background-color: rgb(200, 221, 239);
+    border:2px solid red;
+    border-radius: 50px;
+    height: 250px;
+    width:250px;
+}
+.gap{
+    margin-top: 20px;
+}
+.ass{
+    text-justify: center;
+    justify-content: center;
+}
+.grid:hover{
+    height: 300px;
+    width:300px;
+    background-color:rgb(238, 238, 71);
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow:-5px -5px #021688;
+}
+.f:hover{
+    color:aqua;
+}
+.btn2{
+padding: 5px;
+border:2px solid black;
+border-radius: 10px;
+}
+.btn2:hover{
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #015f02;
+}

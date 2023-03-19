@@ -1,0 +1,315 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+@media(max-width:400px){
+    body{
+        color: aliceblue;
+        background-color: rgb(28, 16, 74);;
+    }
+    .a1:hover{
+        font-size: 30px;
+        padding: 5px;
+        background-color: rgb(121, 132, 142);
+    border: 2px solid rgb(121, 132, 142);
+        border-radius: 50px;
+        transition-duration: 1s;
+        color: black;
+    }
+    h2:hover ,.qwe:hover{
+        color: #3dea04;
+        cursor: default;
+            transform: rotate(360deg);
+        }
+    .a2:hover{
+        font-size: 30px;
+    padding: 10px;
+        background-color: rgb(92, 226, 0);
+        border: 2px solid rgb(92, 226, 0);
+        border-radius: 50px;
+        font-style:bold;
+        transition-duration: 1s;
+        color: rgb(0, 0, 0);
+        box-shadow:-5px -5px #f50909;
+    }
+    .f:hover{
+        color:rgb(239, 172, 13);
+    }
+    .item2{
+        padding-top: 30px;
+        text-align: center;
+        justify-content: center;
+       margin-top: 25px;
+    background-color: rgb(28, 16, 74);
+    border-radius: 50px;
+    }
+    footer {
+        margin-top: 60px;
+        background-color: rgb(28, 16, 74);;
+        color: rgb(241, 248, 243);
+        text-align: center;
+        width: 100%;  
+    }
+    .container{
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+    }
+    .top{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+    }
+    .top2{
+        margin-top: 14px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+    }
+    .con{
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+    }
+    .item0 ,.item1{
+        text-align: center;
+       justify-content: center;
+       border-radius: 90px;
+       margin-top: 25px;
+   animation-name:item20;
+   animation-duration: 3s;
+   animation-iteration-count:1;
+   animation-fill-mode: alternate;
+   animation-timing-function: ease-in-out;
+   animation-direction:reverse;
+   }
+   @keyframes item20{
+       from{
+           width:100px;
+       }
+       to{
+           width: 600px;
+       }
+   }
+   #home{
+    margin-top: 40px;
+    justify-content: center;
+    text-align: center;
+    animation-name:item15;
+animation-duration: 3s;
+animation-iteration-count:1;
+animation-fill-mode: alternate;
+animation-timing-function: ease-in-out;
+animation-direction:alternate;
+}
+
+@keyframes item15{
+    from{
+        width:100px
+    }
+    to{
+        width: 600px;
+    }
+}
+.item11{
+    animation-name:item26;
+    animation-duration: 3s;
+    animation-iteration-count:1;
+    animation-fill-mode: alternate;
+    animation-timing-function: ease-in-out;
+    animation-direction:alternate;
+    }
+    @keyframes item26{
+        from{
+            width:100px
+        }
+        to{
+            width: 600px;
+        }
+    }
+    .tot{
+        margin-left: 80px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+    }
+    .grid{
+    
+        box-shadow:-5px -5px #015f02;
+        opacity: 1;
+        color: blue;
+        text-align: center;
+        background-color: rgb(200, 221, 239);
+        border:2px solid red;
+        border-radius: 50px;
+        height: 250px;
+        width:200px;
+    }
+    #home:hover{
+        margin-top: 40px;
+        font-size: 50px;
+        transition-duration: 1s;
+        color: yellow;
+        cursor: default;
+        transform: rotate(360deg);
+    }
+    .grid:hover{
+        height: 300px;
+        width:250px;
+        background-color:rgb(238, 238, 71);
+        font-size: 15px;
+        cursor: pointer;
+        box-shadow:-5px -5px #021688;
+    }
+}
+@media(min-width:400px) and (max-width:800px)
+{
+    body{
+        color: aliceblue;
+        background-color: rgb(8, 8, 8);
+    }
+    .container{
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-gap: 1rem;
+    }
+    .top{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+    }
+    .top2{
+        margin-top: 14px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+    }
+    .con{
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+    }
+    .item0 ,.item1{
+        text-align: center;
+       justify-content: center;
+       border-radius: 90px;
+       margin-top: 25px;
+   animation-name:item20;
+   animation-duration: 3s;
+   animation-iteration-count:1;
+   animation-fill-mode: alternate;
+   animation-timing-function: ease-in-out;
+   animation-direction:reverse;
+   }
+   @keyframes item20{
+       from{
+           width:100px;
+       }
+       to{
+           width: 900px;
+       }
+   }
+   #home{
+    margin-top: 40px;
+    justify-content: center;
+    text-align: center;
+    animation-name:item15;
+animation-duration: 3s;
+animation-iteration-count:1;
+animation-fill-mode: alternate;
+animation-timing-function: ease-in-out;
+animation-direction:alternate;
+}
+
+@keyframes item15{
+    from{
+        width:100px
+    }
+    to{
+        width: 900px;
+    }
+}
+.item11{
+    text-align: center;
+    animation-name:item26;
+    animation-duration: 3s;
+    animation-iteration-count:1;
+    animation-fill-mode: alternate;
+    animation-timing-function: ease-in-out;
+    animation-direction:alternate;
+    }
+    @keyframes item26{
+        from{
+            width:100px
+        }
+        to{
+            width: 900px;
+        }
+    }
+    .tot{
+        margin-left: 180px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+    }
+    .grid{
+    
+        box-shadow:-5px -5px #015f02;
+        opacity: 1;
+        color: blue;
+        text-align: center;
+        background-color: rgb(200, 221, 239);
+        border:2px solid red;
+        border-radius: 50px;
+        height: 250px;
+        width:200px;
+    }
+    .grid:hover{
+        height: 300px;
+        width:250px;
+        background-color:rgb(238, 238, 71);
+        font-size: 15px;
+        cursor: pointer;
+        box-shadow:-5px -5px #021688;
+    }
+    .item2{
+        background-image:url("/icons8-headphones-100.png") ;
+        padding-top: 30px;
+        text-align: center;
+        justify-content: center;
+       margin-top: 25px;
+    background-color:rgb(9, 9, 6);
+    border-radius: 50px;
+    }
+}
+@media(min-width:800px){
+    body{
+        background-color: black;
+        color:aliceblue
+    }
+    .item2{
+        background-image:url("/icons8-headphones-100.png") ;
+        padding-top: 30px;
+        text-align: center;
+        justify-content: center;
+       margin-top: 25px;
+    background-color:rgb(9, 9, 6);
+    border-radius: 50px;
+    }
+    .item11:first-child{
+        grid-column:1 / span 2 ;
+        grid-row: 1 / span 4;
+    }
+}
